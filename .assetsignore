@@ -1,0 +1,8 @@
+# Repo files that should not be served on the website.
+.git
+.github
+.assetsignore
+wrangler.jsonc
+README.md
+*.sh
+template
