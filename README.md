@@ -17,7 +17,7 @@ The apps and App Store Connect still point at their old pages, which stay as the
 | GROL Trainer | `grol-trainer` | grol-trainer repo |
 | HAMTrainer | `ham-trainer` | HAMTrainer repo (`docs/`) |
 | Spectrum Scout | `spectrum-scout` | spectrum-scout repo |
-| Tower Roster (not released, unlisted, `noindex`) | `tower-roster` | this repo: `github.io/policies/tower-roster/` |
+| Tower Roster (listed before release, 2026-10-21) | `tower-roster` | this repo: `github.io/policies/tower-roster/` |
 
 At the brand update: change the Privacy Policy URL (any time) and the Support URL (with the next version) in App Store Connect to
 `https://apps.freshcoastrf.com/<slug>/privacy` and `https://apps.freshcoastrf.com/<slug>/support`, update the in-app links,
