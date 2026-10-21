@@ -5,7 +5,7 @@ set -u
 bad=0
 dirs=$*; [ -n "$dirs" ] || dirs=$(grep -o 'href="[a-z0-9-]*/privacy.html"' index.html | sed 's/href="//; s#/privacy.html"##' | sort -u)
 for d in $dirs; do
-  for f in "$d"/privacy.html "$d"/support.html; do
+  for f in "$d"/index.html "$d"/privacy.html "$d"/support.html; do
     [ -f "$f" ] || { echo "MISSING $f"; bad=1; continue; }
     if grep -n -i -e 'TODO' -e 'FILL IN' -e '{{' -e 'example\.com' "$f"; then echo "  ^ placeholder left in $f"; bad=1; fi
   done

@@ -1,19 +1,31 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{{APP_NAME}}: Privacy</title><link rel="stylesheet" href="../assets/style.css"></head>
+<title>Privacy Policy | {{APP_NAME}}</title>
+<meta name="description" content="Privacy Policy for {{APP_NAME}}, an iOS app by {{COMPANY}}.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="icon" href="../assets/favicon.png" type="image/png">
+<link rel="stylesheet" href="../assets/style.css"></head>
 <body>
-<header class="site"><div class="in"><div class="co">{{COMPANY}}</div><div class="app">{{APP_NAME}}</div></div></header>
-<main>
-<h1>Privacy</h1>
-<p>{{COMPANY}} makes {{APP_NAME}}. This page says what the app does with your information.</p>
+<header class="site"><div class="in"><a class="logo" href="../"><img src="../assets/logo.svg" alt="{{COMPANY}}" width="181" height="40"></a></div></header>
+<div class="hero"><div class="in">
+<p class="eyebrow">iOS app</p>
+<h1>{{APP_NAME}}</h1>
+<p class="tagline">TODO one-line description</p>
+<nav class="tabs" aria-label="{{APP_NAME}} pages"><a href="index.html">Overview</a><a href="privacy.html" aria-current="page">Privacy</a><a href="support.html">Support</a></nav>
+</div></div>
+<main class="in">
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: {{DATE}}</p>
+<div class="lead"><p><strong>{{COMPANY}} makes {{APP_NAME}}.</strong> This page says what the app does with your information.</p></div>
 <!-- TODO: edit this list so it is true for this app, then delete this comment. -->
 <ul>
 <li>No account, no analytics, no advertising, no tracking.</li>
 <li>Information you enter stays on your device.</li>
 <li>The app contacts only: TODO list every server it talks to and why.</li>
 </ul>
-<p>Questions: see the <a href="support.html">support page</a>.</p>
-<p><small>Last updated: {{DATE}}.</small></p>
+<section class="contact"><h2>Contact</h2><p>Questions: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p></section>
 </main>
-<footer>{{COMPANY}}</footer>
+<footer><div class="in">
+<p>{{APP_NAME}} is made by {{COMPANY}}. Not affiliated with the FCC or FAA.</p>
+<p><a href="../">All apps</a> · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+</div></footer>
 </body></html>
