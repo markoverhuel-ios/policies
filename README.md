@@ -46,6 +46,7 @@ CI runs `./check.sh` on every push and fails if a listed app still has placehold
 - `index.html`: home page (app cards sit between the `apps:` markers; edited by `list-app.sh`)
 - `<slug>/index.html`, `privacy.html`, `support.html`: each app's three pages
 - `assets/style.css`: shared branded styles (Navy #0B2946, Lake Blue #168BBD), light and dark
+- `assets/icons/<slug>.png`: 256 px app icons, resized from each app's AppIcon
 - `assets/logo.svg`, `favicon.*`: from Company/assets/logo-suite (FCRF_LLC_Horizontal_White, FCRF_Favicon_512)
 - `template/`: starting pages for a new app
 - `new-app.sh`, `list-app.sh`, `check.sh`: the scripts above

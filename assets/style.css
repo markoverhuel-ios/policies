@@ -62,7 +62,11 @@ a { color: var(--link); text-underline-offset: 2px; }
 /* Home page app list */
 .apps { list-style: none; padding: 0; display: grid; gap: .9rem; }
 .apps li { margin: 0; }
-.app-card { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+/* App icons: iOS-style rounded square */
+.app-icon { display: block; flex: none; border-radius: 22.5%; box-shadow: 0 1px 3px rgba(0,0,0,.18); }
+.app-title { display: flex; align-items: center; gap: 1rem; }
+.app-title .app-icon { width: 72px; height: 72px; border: 1px solid rgba(255,255,255,.15); }
+.app-card { display: flex; gap: 1rem; align-items: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
   padding: 1rem 1.15rem; }
 .app-card h2 { margin: 0 0 .2rem; padding: 0; font-size: 1.15rem; }
 .app-card p { margin: 0 0 .6rem; color: var(--muted); }
@@ -76,5 +80,7 @@ footer p { margin: 0 0 .35rem; }
   body { font-size: 16px; }
   .hero h1 { font-size: 1.6rem; }
   header.site .logo img { height: 32px; }
+  .app-title .app-icon { width: 56px; height: 56px; }
+  .app-card .app-icon { width: 52px; height: 52px; }
   nav.tabs a { padding: .55rem .7rem; }
 }

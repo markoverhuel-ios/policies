@@ -16,11 +16,12 @@ for f in index privacy support; do
 import sys
 f, slug, name, company, email, date = sys.argv[1:]
 s = open(f"template/{f}.html").read()
-for k, v in {"APP_NAME": name, "COMPANY": company, "EMAIL": email, "DATE": date}.items():
+for k, v in {"APP_NAME": name, "SLUG": slug, "COMPANY": company, "EMAIL": email, "DATE": date}.items():
     s = s.replace("{{" + k + "}}", v)
 s = s.replace("<head>", "<head><meta name=\"robots\" content=\"noindex\">", 1)
 open(f"{slug}/{f}.html", "w").write(s)
 PY
 done
 echo "Created $slug/. Edit the TODOs in $slug/index.html, privacy.html and support.html, then run ./check.sh"
+echo "Add the app icon as assets/icons/$slug.png (256x256 PNG)."
 echo "When the app is released: ./list-app.sh $slug \"$name\""
