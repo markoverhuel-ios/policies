@@ -72,6 +72,22 @@ a { color: var(--link); text-underline-offset: 2px; }
 .app-card p { margin: 0 0 .6rem; color: var(--muted); }
 .app-card .links a { font-weight: 600; margin-right: 1rem; }
 
+/* Overview pages: status line, note, screenshot gallery */
+.store { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.status { color: var(--muted); font-weight: 600; }
+.note { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: .75rem 1rem;
+  color: var(--muted); font-size: .95rem; }
+.gallery { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+  margin: 0 -16px; padding: .25rem 16px 1rem; scroll-padding: 0 16px; }
+.gallery:focus-visible { outline: 2px solid var(--lake); outline-offset: 2px; }
+.shot { flex: 0 0 72%; max-width: 20rem; margin: 0; scroll-snap-align: start; }
+.shot img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.shot figcaption { margin-top: .5rem; color: var(--muted); font-size: .9rem; line-height: 1.4; }
+@media (min-width: 640px) {
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); overflow: visible; margin: 0; padding: 0 0 1rem; }
+  .shot { max-width: none; }
+}
+
 footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
 footer .in { padding-top: 1.25rem; padding-bottom: 2rem; }
 footer p { margin: 0 0 .35rem; }
