@@ -1,0 +1,69 @@
+{
+  "slug": "grol-trainer",
+  "card_width": 900,
+  "placeholder": true,
+  "preframed_input": false,
+  "font": "segoeuib.ttf",
+  "files": [
+    {
+      "png": "shot-01.png",
+      "png_bytes": 28034,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1190,
+      "caption": "",
+      "source": null,
+      "webp": "shot-01.webp",
+      "webp_bytes": 14634,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-02.png",
+      "png_bytes": 28040,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1190,
+      "caption": "",
+      "source": null,
+      "webp": "shot-02.webp",
+      "webp_bytes": 14092,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-03.png",
+      "png_bytes": 28034,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1190,
+      "caption": "",
+      "source": null,
+      "webp": "shot-03.webp",
+      "webp_bytes": 14634,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-04.png",
+      "png_bytes": 28040,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1190,
+      "caption": "",
+      "source": null,
+      "webp": "shot-04.webp",
+      "webp_bytes": 14092,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-05.png",
+      "png_bytes": 28034,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1190,
+      "caption": "",
+      "source": null,
+      "webp": "shot-05.webp",
+      "webp_bytes": 14634,
+      "webp_quality": 86
+    }
+  ]
+}

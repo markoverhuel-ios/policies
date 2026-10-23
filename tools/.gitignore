@@ -1,0 +1,3 @@
+# Raw simulator captures are not committed. Remove these lines to commit them.
+raw/*/*
+!raw/*/.gitkeep

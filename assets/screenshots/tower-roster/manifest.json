@@ -1,0 +1,45 @@
+{
+  "slug": "tower-roster",
+  "card_width": 900,
+  "placeholder": false,
+  "preframed_input": false,
+  "font": "segoeuib.ttf",
+  "files": [
+    {
+      "png": "shot-01.png",
+      "png_bytes": 68353,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1294,
+      "caption": "Start with a tower number and your climb",
+      "source": "01_home.png",
+      "webp": "shot-01.webp",
+      "webp_bytes": 51674,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-04.png",
+      "png_bytes": 77464,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1294,
+      "caption": "Enter a meter reading and see the result",
+      "source": "04_meter.png",
+      "webp": "shot-04.webp",
+      "webp_bytes": 60664,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-05.png",
+      "png_bytes": 71727,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1294,
+      "caption": "Look up FCC exposure limits by frequency",
+      "source": "05_limits.png",
+      "webp": "shot-05.webp",
+      "webp_bytes": 53204,
+      "webp_quality": 86
+    }
+  ]
+}

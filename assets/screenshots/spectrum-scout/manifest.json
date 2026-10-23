@@ -1,0 +1,45 @@
+{
+  "slug": "spectrum-scout",
+  "card_width": 900,
+  "placeholder": false,
+  "preframed_input": false,
+  "font": "segoeuib.ttf",
+  "files": [
+    {
+      "png": "shot-01.png",
+      "png_bytes": 238230,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1294,
+      "caption": "See towers and licensed sites on one map",
+      "source": "01_map.png",
+      "webp": "shot-01.webp",
+      "webp_bytes": 129126,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-05.png",
+      "png_bytes": 72453,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1294,
+      "caption": "Choose which layers show",
+      "source": "05_filters.png",
+      "webp": "shot-05.webp",
+      "webp_bytes": 48958,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-06.png",
+      "png_bytes": 66116,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1294,
+      "caption": "Check the FAA obstacle record",
+      "source": "06_faa.png",
+      "webp": "shot-06.webp",
+      "webp_bytes": 43296,
+      "webp_quality": 86
+    }
+  ]
+}
