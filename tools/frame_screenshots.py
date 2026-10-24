@@ -113,6 +113,9 @@ def wrap(text, font, max_w, draw):
     return lines
 
 
+ASIS_W = 600   # --asis output width; App Store art keeps its own aspect ratio
+
+
 def render_card(shot, caption, index, top, font, font_path, preframed=False, placeholder=False):
     """shot: PIL image or None (placeholder). Returns an RGB card of width W."""
     if preframed:
@@ -256,6 +259,8 @@ def main():
     ap.add_argument("--out", help="output folder (default assets/screenshots/<slug>)")
     ap.add_argument("--preframed", action="store_true",
                     help="inputs already have marketing art or a frame: no bezel, no caption, only rounded corners")
+    ap.add_argument("--asis", action="store_true",
+                    help="inputs are finished App Store images (own background, frame and caption): only resize, no card")
     ap.add_argument("--placeholder", action="store_true", help="write 'Screenshot coming' placeholders (no input needed)")
     ap.add_argument("--count", type=int, default=4, help="placeholder count (default 4)")
     ap.add_argument("--budget-kb", type=int, default=250, help="target size per file (default 250)")
@@ -297,7 +302,7 @@ def main():
         if isinstance(capdata, list) and len(capdata) != len(files):
             print(f"warning: {len(capdata)} captions for {len(files)} images; missing ones are left blank")
         caps = [caption_for(capdata, i, f) for i, f in enumerate(files)]
-        if a.preframed:
+        if a.preframed or a.asis:
             caps_used = [""] * len(files)
         else:
             caps_used = caps
@@ -325,6 +330,9 @@ def main():
 
     cards = []
     for i, im in enumerate(shots):
+        if a.asis:
+            cards.append(im.convert("RGB").resize((ASIS_W, round(ASIS_W * im.height / im.width)), Image.LANCZOS))
+            continue
         cards.append(render_card(im, caps_used[i], i, top, font, a.font,
                                  preframed=a.preframed, placeholder=a.placeholder))
 
@@ -336,7 +344,7 @@ def main():
         print("warning: this Pillow has no WebP support; writing PNG only")
 
     manifest = {"slug": a.slug, "card_width": W, "placeholder": bool(a.placeholder),
-                "preframed_input": bool(a.preframed), "font": font_name, "files": []}
+                "preframed_input": bool(a.preframed), "asis_input": bool(a.asis), "font": font_name, "files": []}
     for i, card in enumerate(cards):
         name = f"shot-{i + 1:02d}"
         png, webp = out / f"{name}.png", out / f"{name}.webp"

@@ -1,0 +1,70 @@
+{
+  "slug": "frn-dashboard",
+  "card_width": 900,
+  "placeholder": false,
+  "preframed_input": false,
+  "asis_input": true,
+  "font": "segoeuib.ttf",
+  "files": [
+    {
+      "png": "shot-01.png",
+      "png_bytes": 96153,
+      "png_colors": 256,
+      "width": 600,
+      "height": 1304,
+      "caption": "Track FCC licenses across multiple FRNs",
+      "source": "01_iPhone-1-Dashboard.png",
+      "webp": "shot-01.webp",
+      "webp_bytes": 49274,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-02.png",
+      "png_bytes": 100730,
+      "png_colors": 256,
+      "width": 600,
+      "height": 1304,
+      "caption": "See call signs, frequencies and license details",
+      "source": "02_iPhone-2-Licenses.png",
+      "webp": "shot-02.webp",
+      "webp_bytes": 45930,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-03.png",
+      "png_bytes": 212877,
+      "png_colors": 256,
+      "width": 600,
+      "height": 1304,
+      "caption": "Check status and choose your alert lead time",
+      "source": "03_iPhone-3-Map.png",
+      "webp": "shot-03.webp",
+      "webp_bytes": 94858,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-04.png",
+      "png_bytes": 91948,
+      "png_colors": 256,
+      "width": 600,
+      "height": 1304,
+      "caption": "Keep antenna structure registrations in one place",
+      "source": "04_iPhone-4-Structure.png",
+      "webp": "shot-04.webp",
+      "webp_bytes": 46282,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-05.png",
+      "png_bytes": 100583,
+      "png_colors": 256,
+      "width": 600,
+      "height": 1304,
+      "caption": "",
+      "source": "05_iPhone-5-LicenseDetail.png",
+      "webp": "shot-05.webp",
+      "webp_bytes": 46442,
+      "webp_quality": 86
+    }
+  ]
+}

@@ -28,6 +28,15 @@ drawn dynamic island, no Apple art) on a Navy #0B2946 to Lake Blue #168BBD gradi
     python tools\frame_screenshots.py --slug tower-roster --in tools\raw\tower-roster
     python tools\frame_screenshots.py --slug frn-dashboard --in tools\raw\frn-dashboard --preframed
 
+## Finished App Store images (`--asis`)
+
+When the inputs are the finished App Store images (their own background, phone frame and headline, as in
+`Apps\<app>\screenshotsZ0x2868\`), use `--asis`: each one is only resized to 600 px wide, keeping its
+aspect ratio, with no extra card or caption. The page's alt text repeats the headline. Leave out any shot that
+shows a real company name or phone number.
+
+    python toolsrame_screenshots.py --slug grol-trainer --in <folder of chosen images> --asis
+
 ## Run on the Mac
 
     cd ~/path/to/Fresh\ Coast\ RF/Apps/_shared/policies
