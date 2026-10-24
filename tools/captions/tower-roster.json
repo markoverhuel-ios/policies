@@ -1,1 +1,6 @@
-["Start with a tower number and your climb","See who is licensed on the tower","Find the radios over the FCC limit, with phone numbers","Enter a meter reading and see the result","Look up FCC exposure limits by frequency"]
+[
+ "Start with a tower number and your climb",
+ "Enter a meter reading and see the result",
+ "Look up FCC exposure limits by frequency",
+ "Works in dark mode too"
+]

@@ -7,38 +7,50 @@
   "files": [
     {
       "png": "shot-01.png",
-      "png_bytes": 68353,
+      "png_bytes": 68636,
       "png_colors": 256,
       "width": 900,
       "height": 1294,
       "caption": "Start with a tower number and your climb",
       "source": "01_home.png",
       "webp": "shot-01.webp",
-      "webp_bytes": 51674,
+      "webp_bytes": 51680,
       "webp_quality": 86
     },
     {
-      "png": "shot-04.png",
-      "png_bytes": 77464,
+      "png": "shot-02.png",
+      "png_bytes": 77413,
       "png_colors": 256,
       "width": 900,
       "height": 1294,
       "caption": "Enter a meter reading and see the result",
       "source": "04_meter.png",
-      "webp": "shot-04.webp",
-      "webp_bytes": 60664,
+      "webp": "shot-02.webp",
+      "webp_bytes": 60550,
       "webp_quality": 86
     },
     {
-      "png": "shot-05.png",
+      "png": "shot-03.png",
       "png_bytes": 71727,
       "png_colors": 256,
       "width": 900,
       "height": 1294,
       "caption": "Look up FCC exposure limits by frequency",
       "source": "05_limits.png",
-      "webp": "shot-05.webp",
+      "webp": "shot-03.webp",
       "webp_bytes": 53204,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-04.png",
+      "png_bytes": 66334,
+      "png_colors": 256,
+      "width": 900,
+      "height": 1294,
+      "caption": "Works in dark mode too",
+      "source": "06_dark.png",
+      "webp": "shot-04.webp",
+      "webp_bytes": 48818,
       "webp_quality": 86
     }
   ]
