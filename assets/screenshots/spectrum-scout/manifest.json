@@ -8,38 +8,74 @@
   "files": [
     {
       "png": "shot-01.png",
-      "png_bytes": 245244,
-      "png_colors": 256,
+      "png_bytes": 252863,
+      "png_colors": 192,
       "width": 600,
       "height": 1304,
       "caption": "See towers and licensed sites on one map",
       "source": "01_1_map.png",
       "webp": "shot-01.webp",
-      "webp_bytes": 122394,
+      "webp_bytes": 124608,
       "webp_quality": 86
     },
     {
       "png": "shot-02.png",
-      "png_bytes": 107996,
+      "png_bytes": 111649,
       "png_colors": 256,
       "width": 600,
       "height": 1304,
       "caption": "Open a tower to see its structure and microwave links",
-      "source": "02_5_filters.png",
+      "source": "02_2_tower.png",
       "webp": "shot-02.webp",
-      "webp_bytes": 57622,
+      "webp_bytes": 58246,
       "webp_quality": 86
     },
     {
       "png": "shot-03.png",
-      "png_bytes": 101443,
+      "png_bytes": 130973,
       "png_colors": 256,
       "width": 600,
       "height": 1304,
       "caption": "List the licenses in any area",
-      "source": "03_6_faa.png",
+      "source": "03_3_area.png",
       "webp": "shot-03.webp",
-      "webp_bytes": 52930,
+      "webp_bytes": 67706,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-04.png",
+      "png_bytes": 189786,
+      "png_colors": 256,
+      "width": 600,
+      "height": 1304,
+      "caption": "Outline every site one licensee holds",
+      "source": "04_4_outline.png",
+      "webp": "shot-04.webp",
+      "webp_bytes": 97716,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-05.png",
+      "png_bytes": 106571,
+      "png_colors": 256,
+      "width": 600,
+      "height": 1304,
+      "caption": "Choose which layers show",
+      "source": "05_5_filters.png",
+      "webp": "shot-05.webp",
+      "webp_bytes": 56882,
+      "webp_quality": 86
+    },
+    {
+      "png": "shot-06.png",
+      "png_bytes": 104865,
+      "png_colors": 256,
+      "width": 600,
+      "height": 1304,
+      "caption": "Check the FAA obstacle record",
+      "source": "06_6_faa.png",
+      "webp": "shot-06.webp",
+      "webp_bytes": 54220,
       "webp_quality": 86
     }
   ]

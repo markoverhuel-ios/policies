@@ -8,14 +8,14 @@
   "files": [
     {
       "png": "shot-01.png",
-      "png_bytes": 81364,
+      "png_bytes": 82529,
       "png_colors": 256,
       "width": 600,
       "height": 1304,
       "caption": "",
       "source": "01_HAM-1-Practice.png",
       "webp": "shot-01.webp",
-      "webp_bytes": 43158,
+      "webp_bytes": 43626,
       "webp_quality": 86
     },
     {
@@ -32,26 +32,26 @@
     },
     {
       "png": "shot-03.png",
-      "png_bytes": 98073,
+      "png_bytes": 97567,
       "png_colors": 256,
       "width": 600,
       "height": 1304,
       "caption": "",
       "source": "03_HAM-3-Question.png",
       "webp": "shot-03.webp",
-      "webp_bytes": 44430,
+      "webp_bytes": 44026,
       "webp_quality": 86
     },
     {
       "png": "shot-04.png",
-      "png_bytes": 121310,
+      "png_bytes": 120958,
       "png_colors": 256,
       "width": 600,
       "height": 1304,
       "caption": "",
       "source": "04_HAM-4-Browse.png",
       "webp": "shot-04.webp",
-      "webp_bytes": 67756,
+      "webp_bytes": 67558,
       "webp_quality": 86
     }
   ]

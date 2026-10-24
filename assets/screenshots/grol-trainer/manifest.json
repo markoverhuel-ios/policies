@@ -8,26 +8,26 @@
   "files": [
     {
       "png": "shot-01.png",
-      "png_bytes": 76689,
+      "png_bytes": 77185,
       "png_colors": 256,
       "width": 600,
       "height": 1304,
       "caption": "",
       "source": "01_GROL-1-Practice.png",
       "webp": "shot-01.webp",
-      "webp_bytes": 37248,
+      "webp_bytes": 37148,
       "webp_quality": 86
     },
     {
       "png": "shot-02.png",
-      "png_bytes": 104433,
+      "png_bytes": 100054,
       "png_colors": 256,
       "width": 600,
       "height": 1304,
       "caption": "",
       "source": "02_GROL-2-Setup.png",
       "webp": "shot-02.webp",
-      "webp_bytes": 49008,
+      "webp_bytes": 47676,
       "webp_quality": 86
     },
     {
