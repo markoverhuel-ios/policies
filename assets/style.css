@@ -70,7 +70,9 @@ a { color: var(--link); text-underline-offset: 2px; }
   padding: 1rem 1.15rem; }
 .app-card h2 { margin: 0 0 .2rem; padding: 0; font-size: 1.15rem; }
 .app-card p { margin: 0 0 .6rem; color: var(--muted); }
-.app-card .links a { font-weight: 600; margin-right: 1rem; }
+.app-card .links { display: flex; flex-wrap: wrap; gap: .2rem 1rem; }
+.app-card .links a { font-weight: 600; }
+.app-card .links > * { white-space: nowrap; }
 
 /* Overview pages: status line, note, screenshot gallery */
 .store { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }

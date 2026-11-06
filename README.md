@@ -17,7 +17,7 @@ The apps and App Store Connect still point at their old pages, which stay as the
 | GROL Trainer | `grol-trainer` | grol-trainer repo |
 | HAMTrainer | `ham-trainer` | HAMTrainer repo (`docs/`) |
 | Spectrum Scout | `spectrum-scout` | spectrum-scout repo |
-| Tower Roster (listed before release, 2026-10-21) | `tower-roster` | this repo: `github.io/policies/tower-roster/` |
+| Tower Roster | `tower-roster` | this repo: `github.io/policies/tower-roster/` |
 
 At the brand update: change the Privacy Policy URL (any time) and the Support URL (with the next version) in App Store Connect to
 `https://apps.freshcoastrf.com/<slug>/privacy` and `https://apps.freshcoastrf.com/<slug>/support`, update the in-app links,
@@ -34,6 +34,8 @@ git add -A && git commit -m "Add <App Name> pages" && git push
 ./list-app.sh <slug> "<App Name>"                           # checks, un-hides, adds a card to the home page
 git commit -am "List <App Name>" && git push
 ```
+
+App Store links (2026-11-06): the home page card and the Overview page of each live app link its App Store listing. Spectrum Scout shows "App Store: coming soon" and "Coming soon to the App Store" until it is released; then add its link the same way. `list-app.sh` does not add store links.
 
 Rules for what goes in a policy page:
 - It must be true. List every server the app talks to and what is sent.
