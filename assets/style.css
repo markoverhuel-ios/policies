@@ -17,9 +17,9 @@ body { margin: 0; background: var(--bg); color: var(--ink);
 
 /* Header: navy band with the white logo */
 header.site { background: var(--head); }
-header.site .in { display: flex; align-items: center; min-height: 64px; }
+header.site .in { display: flex; align-items: center; min-height: 92px; }
 header.site .logo { display: block; line-height: 0; }
-header.site .logo img { height: 40px; width: auto; }
+header.site .logo img { height: 64px; width: auto; }
 
 /* App title band */
 .hero { background: linear-gradient(180deg, var(--head) 0%, var(--navy) 100%); color: #fff;
@@ -97,7 +97,7 @@ footer p { margin: 0 0 .35rem; }
 @media (max-width: 520px) {
   body { font-size: 16px; }
   .hero h1 { font-size: 1.6rem; }
-  header.site .logo img { height: 32px; }
+  header.site .logo img { height: 48px; }
   .app-title .app-icon { width: 56px; height: 56px; }
   .app-card .app-icon { width: 52px; height: 52px; }
   nav.tabs a { padding: .55rem .7rem; }
