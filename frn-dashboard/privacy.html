@@ -1,31 +1,36 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Privacy Policy | FRN Dashboard</title>
-<meta name="description" content="Privacy Policy for FRN Dashboard, an iOS app by Fresh Coast RF, LLC.">
+<meta name="description" content="Privacy Policy for FRN Dashboard, an iPhone, iPad and Android app by Fresh Coast RF, LLC.">
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="icon" href="../assets/favicon.png" type="image/png">
 <link rel="stylesheet" href="../assets/style.css"></head>
 <body>
 <header class="site"><div class="in"><a class="logo" href="../"><img src="../assets/logo.svg" alt="Fresh Coast RF, LLC" width="290" height="64"></a></div></header>
 <div class="hero"><div class="in">
-<div class="app-title"><img class="app-icon" src="../assets/icons/frn-dashboard.png" alt="" width="72" height="72"><div><p class="eyebrow">iOS app</p>
+<div class="app-title"><img class="app-icon" src="../assets/icons/frn-dashboard.png" alt="" width="72" height="72"><div><p class="eyebrow">iPhone, iPad and Android app</p>
 <h1>FRN Dashboard</h1></div></div>
 <p class="tagline">FCC license tracking dashboard for iOS</p>
 <nav class="tabs" aria-label="FRN Dashboard pages"><a href="index.html">Overview</a><a href="privacy.html" aria-current="page">Privacy</a><a href="support.html">Support</a></nav>
 </div></div>
 <main class="in">
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: October 2026</p>
+<p class="updated">Last updated: November 2026</p>
 <div class="lead"><p><strong>FRN Dashboard does not collect, transmit, sell, or share any personal data.</strong> There is no account system and no backend server operated by the developer. This policy explains what the app stores and where it goes.</p></div>
 <h2>What the app stores</h2>
-<p>The FRNs you add, the license data fetched for them, your app settings, and cached map locations are stored locally on your device only, using Apple's standard on-device storage. This data never leaves your device except as described below.</p>
+<p>The FRNs you add, the license data fetched for them, your app settings, and cached map locations are stored locally on your device only, using the platform's standard on-device storage. This data never leaves your device except as described below.</p>
+<p>On Android, if device backup is on, Google may back up this saved data to your Google Account so it can be restored on a new phone. That is controlled by your device settings and covered by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. We never receive it.</p>
 <h2>Data sent to the FCC and FAA</h2>
 <p>To retrieve license information, the app loads pages from the FCC's public Universal Licensing System (ULS) directly from your device, the same way a web browser would. The FRNs and call signs you search are sent to fcc.gov to retrieve the corresponding public license records. For antenna structures, the app also sends the structure's FAA study number to the FAA's public obstruction evaluation site (oeaaa.faa.gov) to retrieve the case status and any determination letters. These are the agencies' own public systems; the developer does not see or receive this traffic. See the FCC's privacy policy at <a href="https://www.fcc.gov/policies-and-rules/privacy-policy">fcc.gov</a> for how they handle requests to their site. The FAA's privacy policy is available on faa.gov.</p>
+<h2>Bulk FCC data file</h2>
+<p>To look up antenna structure registrations, the app downloads a public file of FCC antenna structure data. It tries our data server (data.freshcoastrf.com, run on Cloudflare) first and falls back to the FCC's own server (data.fcc.gov). Either request is an ordinary web request and contains no personal information.</p>
 <h2>No third-party services</h2>
-<p>The app uses no third-party analytics, advertising, or tracking SDKs. Besides Apple's own frameworks, it includes one open-source library, ZIPFoundation, which is used only to unpack data files downloaded from the FCC. That library does not collect or send any data.</p>
+<p>The app uses no third-party analytics, advertising, or tracking SDKs. On iPhone and iPad, besides Apple's own frameworks, it includes one open-source library, ZIPFoundation, which is used only to unpack data files downloaded from the FCC. On Android it uses Google's Android libraries, Google Play Billing for the purchase, and the open-source osmdroid map library. None of these collects data or sends it to us.</p>
 <h2>Notifications</h2>
-<p>If you enable license expiration reminders, they are scheduled as local notifications on your device via Apple's notification system. No reminder data is sent anywhere.</p>
+<p>If you enable license expiration reminders, they are scheduled as local notifications on your device, through Apple's notification system on iPhone and iPad and Android's notification system on Android (Android 13 and later ask your permission). No reminder data is sent anywhere.</p>
 <h2>Location</h2>
-<p>The app displays license site locations from FCC public records on a map. It does not access or use your device's actual location. Maps are drawn by Apple Maps, so the map area you view is requested from Apple. Apple's handling of that request is covered by Apple's privacy policy.</p>
+<p>The app displays license site locations from FCC public records on a map. It does not access or use your device's actual location. On iPhone and iPad, maps are drawn by Apple Maps, so the map area you view is requested from Apple, under Apple's privacy policy. On Android, map pictures are loaded from OpenStreetMap's public tile servers, which receive your device's IP address and the map area you view, under the <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation's privacy policy</a>.</p>
+<h2>Purchase</h2>
+<p>The app's purchase is handled by the App Store on iPhone and iPad and by Google Play on Android. The developer never sees your payment details.</p>
 <h2>Data deletion</h2>
 <p>Removing an FRN from the app deletes its cached data from your device immediately. Deleting the app removes all stored data. Because there is no server or account, the developer has no copy of your data to delete on request.</p>
 <h2>Children's privacy</h2>
