@@ -102,3 +102,10 @@ footer p { margin: 0 0 .35rem; }
   .app-card .app-icon { width: 52px; height: 52px; }
   nav.tabs a { padding: .55rem .7rem; }
 }
+
+/* Header link back to the company site */
+header.site .in { justify-content: space-between; gap: 1rem; }
+header.site .home { color: #cfe3f0; text-decoration: none; font-weight: 600; font-size: .95rem;
+  white-space: nowrap; padding: .45rem .8rem; border: 1px solid rgba(255,255,255,.3); border-radius: 8px; }
+header.site .home:hover { color: #fff; background: rgba(255,255,255,.08); }
+@media (max-width: 520px) { header.site .home { font-size: .85rem; padding: .4rem .6rem; } }
