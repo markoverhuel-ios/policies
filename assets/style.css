@@ -134,3 +134,11 @@ nav.main a[aria-current="page"] { background: var(--surface); box-shadow: inset 
   nav.main a { padding: 0 6px; }
   nav.main a:last-child { padding-right: 0; }
 }
+
+/* Navy title band: same height as freshcoastrf.com and on every page here (desktop). */
+.hero { min-height: 300px; display: flex; }
+.hero .in { width: 100%; display: flex; flex-direction: column; justify-content: center; }
+.hero .in:has(nav) { justify-content: flex-start; }
+.hero .in:has(nav) > :first-child { margin-top: auto; }
+.hero .in:has(nav) > nav.tabs { margin-top: auto; }
+@media (max-width: 720px) { .hero { min-height: 0; } }
