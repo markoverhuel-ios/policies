@@ -35,7 +35,7 @@ git add -A && git commit -m "Add <App Name> pages" && git push
 git commit -am "List <App Name>" && git push
 ```
 
-App Store links (2026-11-06): the home page card and the Overview page of each live app link its App Store listing. Spectrum Scout shows "App Store: coming soon" and "Coming soon to the App Store" until it is released; then add its link the same way. `list-app.sh` does not add store links.
+App Store links (2026-11-06): the home page card and the Overview page of each live app link its App Store listing. Spectrum Scout was released 2026-11-11 and links its listing the same way. `list-app.sh` does not add store links.
 
 Rules for what goes in a policy page:
 - It must be true. List every server the app talks to and what is sent.
