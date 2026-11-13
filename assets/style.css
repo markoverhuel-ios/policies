@@ -15,7 +15,7 @@
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink);
-  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+  font: 17px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif; }
 .in { max-width: var(--max); margin: 0 auto; padding: 0 16px; }
 
 /* App title band */
@@ -142,3 +142,13 @@ nav.main a[aria-current="page"] { background: var(--surface); box-shadow: inset 
 .hero .in:has(nav) > :first-child { margin-top: auto; }
 .hero .in:has(nav) > nav.tabs { margin-top: auto; }
 @media (max-width: 720px) { .hero { min-height: 0; } }
+
+/* Match freshcoastrf.com exactly: same navy in light and dark, same title sizes, sticky header on desktop. */
+.hero { background: var(--navy); border-bottom: 0; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 .4em; color: #fff; }
+.hero .tagline { font-size: 1.2rem; color: #dbe8f2; margin: 0 0 1.25rem; }
+.hero .eyebrow { color: #dbe8f2; }
+nav.tabs a { color: #dbe8f2; }
+header.site { position: sticky; top: 0; z-index: 10; }
+@media (max-width: 720px) { header.site { position: static; } }
+.hero .in, footer .in { max-width: 960px; }
