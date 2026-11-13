@@ -152,3 +152,6 @@ nav.tabs a { color: #dbe8f2; }
 header.site { position: sticky; top: 0; z-index: 10; }
 @media (max-width: 720px) { header.site { position: static; } }
 .hero .in, footer .in { max-width: 960px; }
+/* Content starts at the same left edge as the logo and title; lines and cards keep a readable width. */
+main.in { max-width: 960px; }
+main.in > * { max-width: 46rem; }
