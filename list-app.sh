@@ -18,4 +18,5 @@ s = s.replace("<!-- apps:end -->", line + "<!-- apps:end -->")
 open("index.html", "w", encoding="utf-8").write(s)
 PY
 sed -i.bak 's#<meta name="robots" content="noindex">##' "$slug/index.html" "$slug/privacy.html" "$slug/support.html" && rm -f "$slug"/*.bak
+python3 seo.py >/dev/null   # canonical + social tags for the newly listed pages, and a fresh sitemap.xml
 echo "Listed $name."

@@ -52,3 +52,4 @@ CI runs `./check.sh` on every push and fails if a listed app still has placehold
 - `assets/logo.svg`, `favicon.*`: from Company/assets/logo-suite (FCRF_LLC_Horizontal_White, FCRF_Favicon_512)
 - `template/`: starting pages for a new app
 - `new-app.sh`, `list-app.sh`, `check.sh`: the scripts above
+- `seo.py`: adds canonical and social-preview tags to every page not marked noindex and rebuilds `sitemap.xml` (run by `list-app.sh`; safe to re-run). `robots.txt` points search engines at the sitemap
