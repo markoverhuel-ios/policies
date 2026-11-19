@@ -22,8 +22,13 @@
 <p>On Android, if device backup is on, Google may back up this saved data to your Google Account so it can be restored on a new phone. That is controlled by your device settings and covered by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. We never receive it.</p>
 <h2>Data sent to the FCC and FAA</h2>
 <p>To retrieve license information, the app loads pages from the FCC's public Universal Licensing System (ULS) directly from your device, the same way a web browser would. The FRNs and call signs you search are sent to fcc.gov to retrieve the corresponding public license records. For antenna structures, the app also sends the structure's FAA study number to the FAA's public obstruction evaluation site (oeaaa.faa.gov) to retrieve the case status and any determination letters. These are the agencies' own public systems; the developer does not see or receive this traffic. See the FCC's privacy policy at <a href="https://www.fcc.gov/policies-and-rules/privacy-policy">fcc.gov</a> for how they handle requests to their site. The FAA's privacy policy is available on faa.gov.</p>
-<h2>Bulk FCC data file</h2>
-<p>To look up antenna structure registrations, the app downloads a public file of FCC antenna structure data. It tries our data server (data.freshcoastrf.com, run on Cloudflare) first and falls back to the FCC's own server (data.fcc.gov). Either request is an ordinary web request and contains no personal information.</p>
+<h2>Data from our data server</h2>
+<p>The app downloads public FCC data from our data server (data.freshcoastrf.com, run on Cloudflare). There are two kinds of file:</p>
+<ul>
+<li><strong>Antenna structure data.</strong> To look up antenna structure registrations, the app downloads a public file of FCC antenna structure data. If our server is unavailable it falls back to the FCC's own server (data.fcc.gov).</li>
+<li><strong>License frequencies and locations.</strong> When you open a license, the app downloads the public frequency and site records for it from our server, instead of loading them from the FCC's site. The file requested is named by a group of about a thousand license numbers, so the request does not contain your FRN, your list of FRNs, or any call sign you searched. If a license is not in our files, the app loads that license's records from the FCC as described above.</li>
+</ul>
+<p>These are ordinary web requests. Like any web server, Cloudflare receives your device's IP address with the request. We do not use it to identify you. No account or personal information is included in the request.</p>
 <h2>No third-party services</h2>
 <p>The app uses no third-party analytics, advertising, or tracking SDKs. On iPhone and iPad, besides Apple's own frameworks, it includes one open-source library, ZIPFoundation, which is used only to unpack data files downloaded from the FCC. On Android it uses Google's Android libraries, Google Play Billing for the purchase, and the open-source osmdroid map library. None of these collects data or sends it to us.</p>
 <h2>Notifications</h2>
